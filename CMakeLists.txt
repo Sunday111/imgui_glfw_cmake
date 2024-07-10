@@ -11,7 +11,7 @@ FetchContent_GetProperties(imgui)
 if (NOT imgui_POPULATED)
     FetchContent_Populate(imgui)
 
-    set(target_name imgui)
+    set(target_name imgui_glfw_cmake)
     file(GLOB imgui_headers "${imgui_SOURCE_DIR}/*.h")
     list(APPEND imgui_headers ${imgui_SOURCE_DIR}/backends/imgui_impl_opengl3.h)
     list(APPEND imgui_headers ${imgui_SOURCE_DIR}/backends/imgui_impl_glfw.h)
