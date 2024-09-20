@@ -1,0 +1,13 @@
+{
+    "ModuleType": "GitClone",
+    "GitUrl": "https://github.com/ocornut/imgui",
+    "GitTag": "v1.90.9",
+    "TargetName": "imgui_sources",
+    "LocalPath": "ocornut/imgui",
+    "CMakeAddSubdirectory": false,
+    "CMakeOptions": {},
+    "Dependencies": {
+        "Public": [],
+        "Private": []
+    }
+}

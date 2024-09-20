@@ -1,0 +1,11 @@
+{
+    "ModuleType": "Library",
+    "GenerateCMakeFile": false,
+    "Dependencies": {
+        "GitPackages": [],
+        "Public": [
+            "imgui_sources"
+        ],
+        "Private": []
+    }
+}
