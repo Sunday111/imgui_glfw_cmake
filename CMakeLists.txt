@@ -2,13 +2,14 @@ cmake_minimum_required(VERSION 3.16)
 
 include(FetchContent)
 
+# https://cmake.org/cmake/help/latest/module/FetchContent.html
 FetchContent_Declare(
   imgui
   GIT_REPOSITORY https://github.com/ocornut/imgui
   GIT_TAG        "v1.90.9"
+  GIT_SHALLOW    1
 )
 FetchContent_MakeAvailable(imgui)
-FetchContent_GetProperties(imgui)
 
 set(target_name imgui_glfw_cmake)
 file(GLOB imgui_headers "${imgui_SOURCE_DIR}/*.h")
