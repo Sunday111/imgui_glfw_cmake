@@ -1,5 +1,4 @@
 {
-    "name": "imgui_glfw_cmake",
     "dependencies": {
         "packages": []
     }
